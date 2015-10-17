@@ -1,28 +1,23 @@
-COMPUTATIONAL GEOMETRY FINAL PROJECT (COMP 5008)
-// ==========================================================================
-// (C)opyright:
-//
-//   Andres Solis Montero
-//   SITE, University of Ottawa
-//   800 King Edward Ave.
-//   Ottawa, On., K1N 6N5
-//   Canada.
-//   http://www.site.uottawa.ca
-//
-// Creator: asolis (Andres Solis Montero)
-// Email:   asoli094@uottawa.ca
-// ==========================================================================
+### A sweep line algorithm visualizer for listing all crossings in a set of line segments.
 
+For an input consisting of n line segments with k crossings, the algorithm takes time O((n + k) log n). 
 
-1.  Compiling & Running:
-	a) make sure you have java in your path system variable. 
-	b) run  "compile.bat" (this will create a bin folder)
-	c) run  "run.bat"
+### Requirements
+Java installed and in your path system variable 
+
+###  Compiling & Running: 
+	Windows
+	a) run  "compile.bat" (this will create a bin folder)
+	b) run  "run.bat"
+	Linux / Mac
+	a) run ./compile.sh
+	b) run ./run.sh
 	
-2. Creating Jar
-	a) make sure you have java 'jar.exe' application in your path system variable
-	b) run "compile.bat" (this will create a bin folder)
-	c) run "create_jar.bat"  (this will create a runnable LineSegments.jar file in the current folder).
+		
+###2. Creating Jar ('jar.exe' application must be in your Path)
+	Windows
+	a) run "compile.bat" 
+	b) run "create_jar.bat"  (this creates a runnable LineSegments.jar file in the current folder).
 
 	
 3. Using the program
